@@ -15,7 +15,7 @@ body {
   }
   
   /* Card Styles */
-  .todo-container {
+  .task-container {
     max-width: 600px;
     width: 100%;
     background-color: #ffffff;
@@ -25,20 +25,20 @@ body {
     text-align: center;
   }
   
-  .todo-title {
+  .task-title {
     font-size: 24px;
     font-weight: bold;
     color: #333;
     margin-bottom: 16px;
   }
   
-  .todo-form {
+  .task-form {
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
   }
   
-  .todo-form input {
+  .task-form input {
     flex: 1;
     padding: 10px;
     border: 1px solid #ccc;
@@ -46,7 +46,7 @@ body {
     font-size: 16px;
   }
   
-  .todo-form button {
+  .task-form button {
     padding: 10px 20px;
     border: none;
     background-color: #007bff;
@@ -57,18 +57,18 @@ body {
     cursor: pointer;
   }
   
-  .todo-form button:hover {
+  .task-form button:hover {
     background-color: #0056b3;
   }
   
-  /* todo List */
-  .todo-list {
+  /* task List */
+  .task-list {
     list-style: none;
     padding: 0;
     margin: 0;
   }
   
-  .todo-item {
+  .task-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,12 +79,12 @@ body {
     margin-bottom: 10px;
   }
   
-  .todo-item span {
+  .task-item span {
     font-size: 16px;
     color: #555;
   }
   
-  .todo-item button {
+  .task-item button {
     padding: 5px 10px;
     border: none;
     border-radius: 4px;
@@ -92,22 +92,22 @@ body {
     cursor: pointer;
   }
   
-  .todo-item button.edit {
+  .task-item button.edit {
     background-color: #ffc107;
     margin-right: 10px;
     color: #fff;
   }
   
-  .todo-item button.edit:hover {
+  .task-item button.edit:hover {
     background-color: #e0a800;
   }
   
-  .todo-item button.delete {
+  .task-item button.delete {
     background-color: #dc3545;
     color: #fff;
   }
   
-  .todo-item button.delete:hover {
+  .task-item button.delete:hover {
     background-color: #c82333;
   }
   
